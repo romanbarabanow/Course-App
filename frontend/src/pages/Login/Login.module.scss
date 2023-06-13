@@ -1,0 +1,31 @@
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(61, 172, 165);
+  background: linear-gradient(
+    0deg,
+    rgba(61, 172, 165, 1) 0%,
+    rgba(190, 183, 125, 1) 49%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+.login_container {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: space-around;
+  height: 290px;
+  width: 300px;
+  background-color: white;
+  border-radius: 15px;
+  flex-direction: column;
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

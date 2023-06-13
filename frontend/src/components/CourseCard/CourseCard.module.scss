@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  font-size: 20px;
+  height: 70px;
+  border: 1px solid rgb(236, 236, 236);
+  div {
+    width: 24%;
+    display: flex;
+    justify-content: space-around;
+  }
+}

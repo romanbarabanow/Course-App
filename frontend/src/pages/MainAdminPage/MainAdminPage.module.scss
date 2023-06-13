@@ -1,0 +1,22 @@
+.create_course_container {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.courses_container {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(128, 128, 128, 0.329);
+}
+
+.courses {
+  width: 100%;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(128, 128, 128, 0.308);
+  padding: 7px;
+  border-radius: 12px;
+}
